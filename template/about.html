@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Boxes with Heading and Numbered Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .box {
+            border: 2px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .box h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .menu {
+            list-style-type: decimal;
+            padding-left: 20px;
+        }
+
+        .menu li {
+            margin-bottom: 8px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h2>Box 1 Heading</h2>
+            <ul class="menu">
+                <li><a href="#">Menu Item 1</a></li>
+                <li><a href="#">Menu Item 2</a></li>
+                <li><a href="#">Menu Item 3</a></li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h2>Box 2 Heading</h2>
+            <ul class="menu">
+                <li><a href="#">Menu Item 1</a></li>
+                <li><a href="#">Menu Item 2</a></li>
+                <li><a href="#">Menu Item 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
